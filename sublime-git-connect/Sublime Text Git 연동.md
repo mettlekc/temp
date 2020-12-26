@@ -25,6 +25,30 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ***Ctrl+Shift+P*** Command Palatte 불러오기
 ***install*** 입력, Package Controller: Install Package 선택
 
+## 간단한 Git Command
+```
+git init.
+
+git add filename. or git add.
+
+git commit -m "adding files"
+
+git remote add origin https://github.com/yourusername/your-repo-name.git
+
+if you want to change remote
+git remote set-url origin git://new.url.here
+
+or delete
+git remote remove origin
+
+git push -u origin master
+```
+
+
+## Sublime: Git Plugin Command
+***Ctrl+Shift+P*** 
+- Git: Init
+- Git: Custom Command
 
 ## Ref.
 #### 유용한 플러그인
